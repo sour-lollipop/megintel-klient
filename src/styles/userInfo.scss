@@ -1,0 +1,61 @@
+.userInfo {
+    position: relative;
+    width: 300px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+  
+    .cartoon {
+      position: relative;
+      margin-bottom: 10px;
+  
+      .circle {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 140px;
+        height: 140px;
+        background-color: #758BFD;
+        border-radius: 50%;
+        z-index: 0;
+      }
+  
+      .img {
+        position: relative;
+        width: 100px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+    }
+  
+    .role {
+      background: #758BFD;
+      color: #fff;
+      border-radius: 20px;
+      padding: 5px 10px;
+      display: inline-block;
+      font-size: 14px;
+      z-index: 2;
+      position: relative;
+    }
+  
+    .phone, .tariff, .ref {
+      font-size: 14px;
+      color: #999;
+      margin: 5px 0;
+    }
+  
+    .linkBox {
+      background: #ffc86b;
+      padding: 10px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+      content-visibility: auto;
+    }
+  }
+  

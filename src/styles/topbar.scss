@@ -1,0 +1,43 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    // gap: 20px;
+    width: 100%;
+    // background-color: #e8cdcd;
+    p{
+        cursor: pointer;
+        color: #101A36;
+    }
+    .search{
+        padding:5px 10px;
+        width: 500px;
+        background-color: #fff;
+        display: flex;
+        gap:10px ;
+        border-radius: 30px;
+        box-shadow: 0px 5px 32px 0px #26273910;
+        color: #758BFD;
+        input{
+            border: none;
+            outline: none;
+        color: #758BFD;
+        width: 100%;
+        }
+
+    }
+    .pushes{
+        display: flex;
+    }
+    .language{
+        display: flex;
+        
+        select{
+            border: none;
+            outline: none;
+            background: none;
+            cursor: pointer;
+        }
+    }
+}
