@@ -31,17 +31,19 @@
         border-radius: 15px;
         cursor: pointer;
         width: 95%;
+        text-decoration: none;
         img{
             width: 35px;
             height: 35px;
         }
+         &.active {
+      background-color: #aeb7fe70; // выделение активной
+        color: #758BFD;
+
+    }
         
     }
     .button:hover{
-        background-color: #aeb7fe70;
-        color: #758BFD;
-    }
-    .button:active{
         background-color: #aeb7fe70;
         color: #758BFD;
     }

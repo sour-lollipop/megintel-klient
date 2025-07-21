@@ -1,0 +1,41 @@
+// PromoCarousel.scss
+.promo-carousel-wrapper {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  .carousel__slider {
+    border-radius: 20px;
+  }
+
+  .promo-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+
+  .promo-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+
+    button {
+      background-color: #fff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}

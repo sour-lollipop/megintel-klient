@@ -1,0 +1,43 @@
+.historyTranz {
+    position: relative;
+    width: 300px;
+    height: 540px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    a{
+      color: #27187E;
+    }
+    .list{
+      height: 95%;
+      .data{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0px ;
+        .time{
+          font-size: 14px;
+          color: #999;
+          align-self: flex-end;
+        }
+        .icon{
+          font-size: 25px;
+          height: 40px;
+          width: 40px;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+        .desc{
+          font-size: 14px;
+          color: #999;
+          // margin-top: 5px;
+        }
+      }
+    }
+  }
+  

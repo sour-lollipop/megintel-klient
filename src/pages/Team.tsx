@@ -7,13 +7,10 @@ import PromoCarousel from "../components/PromoCarousel";
 
 
 
-export const Profile = () => {
+export const Team = () => {
   return (
     <div className="page">
-      <div style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
-        <Status />
-        <Promo1 />
-      </div>
+      
       <div style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
         <IncomeWallet />
         <JobWallet />
@@ -25,4 +22,4 @@ export const Profile = () => {
   );
 };
 
-export default Profile;
+export default Team;

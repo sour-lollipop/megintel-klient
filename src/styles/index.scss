@@ -2,8 +2,11 @@
 @use "topbar";
 @use "userInfo";
 @use "transactionHistory";
-
-
+@use "promo1";
+@use "status";
+@use "IncomeWallet";
+@use "PromoCarousel";
+@use "historyTranz";
 @font-face {
   src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf");
   font-family: "MontserratAlternates-Medium";
@@ -133,9 +136,12 @@ select {
   gap: 30px;
   width: 100%;
   margin-top: 30px;
+  // background-color: aqua;
 }
 .page{
-  background-color: #ffffff;
+  // background-color: #ffffff;
   min-width:1000px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }

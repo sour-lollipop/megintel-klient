@@ -1,5 +1,6 @@
 import React from "react";
 import men from '../images/man.png'
+import { FiCopy } from "react-icons/fi";
 
 export const Userinfo = () => {
   return (
@@ -14,7 +15,7 @@ export const Userinfo = () => {
       <p className="tariff">Единый тариф</p>
       <div className="linkBox">
         <span>https://demo.megitel.connect/</span>
-        <img src="/copy-icon.svg" alt="copy" />
+        <FiCopy />
       </div>
       <p className="ref">Ваша реферальная ссылка</p>
     </div>
